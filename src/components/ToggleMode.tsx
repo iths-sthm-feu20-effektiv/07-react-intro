@@ -10,7 +10,7 @@ const ToggleMode = () => {
 	console.log('ToggleMode: render');
 
 	return (
-		<div className={mode}>
+		<div className={mode + ' toggle-mode'}>
 			<p>
 				<button onClick={setLightMode}> Light mode </button>
 				<button onClick={setDarkMode}> Dark mode </button>

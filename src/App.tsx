@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import MyComponent from './components/MyComponent'
+import ToggleMode from './components/ToggleMode'
 
 function App() {
     let message = 'Hello ';
@@ -8,10 +10,9 @@ function App() {
         <div className="App">
             <header className="App-header">
                 { message }
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
 
+                <MyComponent />
+                <ToggleMode />
             </header>
         </div>
     );
